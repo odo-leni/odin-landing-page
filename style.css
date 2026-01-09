@@ -51,6 +51,7 @@ li {
   display: flex;
   justify-content: space-between;
   padding-bottom: 100px;
+  gap: 10px;
 }
 
 .heroText {
@@ -198,4 +199,12 @@ li {
   border-radius: 10px;
   border: 2px solid #f9faf8;
   padding: 10px 20px;
+}
+
+.footerCopyrightText {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  color: #f9faf8;
+  padding: 25px;
+  text-align: center;
 }
