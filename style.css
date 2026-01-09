@@ -135,25 +135,67 @@ li {
   width: 150px;
 }
 
-.quote{
+.quote {
   display: flex;
   flex-direction: column;
   padding: 100px 500px;
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
 }
 
-.quoteText{
+.quoteText {
   font-family: Roboto, sans-serif;
   font-size: 36px;
-  color: #1F2937;
+  color: #1f2937;
   font-weight: 300;
   font-style: italic;
 }
 
-.quoteAuthor{
+.quoteAuthor {
   font-size: 24px;
-  color: #1F2937;
+  color: #1f2937;
   font-weight: bold;
   text-align: right;
   margin-top: 20px;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 200px;
+}
+
+.actionBorder {
+  background-color: #3882f6;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+}
+
+.actionHeader {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.actionText {
+  color: #f9faf8;
+  font-size: px;
+}
+
+.buttonActionSignup {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #f9faf8;
+  padding: 10px 20px;
 }
