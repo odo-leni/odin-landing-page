@@ -134,3 +134,26 @@ li {
   text-align: center;
   width: 150px;
 }
+
+.quote{
+  display: flex;
+  flex-direction: column;
+  padding: 100px 500px;
+  background-color: #E5E7EB;
+}
+
+.quoteText{
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quoteAuthor{
+  font-size: 24px;
+  color: #1F2937;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 20px;
+}
