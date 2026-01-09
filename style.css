@@ -61,19 +61,19 @@ li {
   width: 50%;
 }
 
-.heroMainText{
+.heroMainText {
   font-size: 48px;
-  color: #F9FAF8;
+  color: #f9faf8;
   font-weight: 900;
 }
 
-.heroSecondText{
+.heroSecondText {
   font-size: 18px;
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
 
-.buttonSignUp{
-  background-color: #3882F6;
+.buttonSignUp {
+  background-color: #3882f6;
   color: #f9faf8;
   font-size: 18px;
   font-weight: bold;
@@ -86,9 +86,51 @@ li {
 
 .heroLogo {
   display: flex;
-  background-color: #6D747D;
+  background-color: #6d747d;
   color: #f9faf8;
   width: 50%;
   justify-content: center;
   align-items: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.informationHeaderText {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: 50px;
+}
+
+.informationContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: 0px 200px;
+}
+
+.informationItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.informationIllustration {
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.informationContentSubtext {
+  color: #6d747d;
+  text-align: center;
+  width: 150px;
 }
